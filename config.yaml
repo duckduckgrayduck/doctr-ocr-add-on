@@ -1,9 +1,14 @@
 title: docTR OCR Add-On
-description: An Add-On that uses the open source [docTR](https://github.com/mindee/doctr) to OCR your documents. 
+description: An Add-On that uses the open source [docTR](https://github.com/mindee/doctr) OCR tool to OCR your documents. 
+instructions: ''
 type: object
 documents:
   - selected
-properties: {}
+properties:
+  to_tag:
+    title: Tag OCR'd documents?
+    type: boolean
+    description: "If selected, the key/value pair of ocr_engine:doctr will be added to the document as metadata"
 categories: 
   - extraction
 # Acceptable categories are premium, ai, export, bulk, file,  monitor, statistical, and extraction. 

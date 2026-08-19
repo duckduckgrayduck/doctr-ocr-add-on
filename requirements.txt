@@ -1,5 +1,5 @@
--f https://download.pytorch.org/whl/torch_stable.html
-python-documentcloud==3.6.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+python-documentcloud==4.8.1
 requests
 defusedxml
 h5py
@@ -8,7 +8,7 @@ importlib-metadata
 langdetect
 matplotlib
 mplcursors==0.5.2
-numpy
+numpy<2
 opencv-python
 Pillow
 pyclipper
@@ -19,5 +19,6 @@ shapely
 tqdm
 unidecode
 weasyprint
-torch==2.0.1+cpu
+torch==2.2.2
+torchvision==0.17.2
 python-doctr[torch]
